@@ -1,0 +1,117 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .button {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        position: center;
+        margin-top: 40px;
+        position: relative;
+        border-radius: 25px;
+      }
+      .schrift {
+        color: black;
+        text-decoration: none;
+        font-family: Arial;
+        opacity: 1;
+        padding-top: 50px;
+        font-size: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: center;
+      }
+      .notiz {
+        color: black;
+        text-decoration: none;
+        font-family: Arial;
+        opacity: 1;
+        padding-top: 50px;
+        font-size: 90%;
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: center;
+        font-style: oblique;
+      }
+
+      .content {
+        max-width: 500px;
+        margin: auto;
+      }
+
+      .card {
+        background-color: white;
+        border-radius: 25px;
+      }
+
+      .container {
+        height: 200px;
+        position: relative;
+      }
+
+      .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+
+      body {
+        background-image: url("https://cdn.glitch.com/39a39e27-89db-44c0-a9e0-b256336f270a%2Fpexels-pixabay-161959.jpg?v=1612477918909");
+        /* Background image is centered vertically and horizontally at all times */
+        background-position: center center;
+
+        /* Background image doesn't tile */
+        background-repeat: no-repeat;
+
+        /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+        background-attachment: fixed;
+
+        /* This is what makes the background image rescale based
+     on the container's size */
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <img
+        alt="self-Logo"
+        src="https://cdn.glitch.com/39a39e27-89db-44c0-a9e0-b256336f270a%2Flogo.svg?v=1612375735030"
+      />
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <p class="schrift">
+              <b>AR Anwendung für die Ausstellung "DINOSAURIER"</b>
+            </p>
+            <p class="schrift">
+              Entdecken Sie virtuelle Ausstellungsobjekte und interagieren Sie
+              mit diesen über Touchgesten. Die Anwendung funktioniert nur
+              unmittelbar vor dem Museumseingang.
+            </p>
+            <p class="notiz">
+              * Die App greift auf Ihre Kamera und Ihren Standort zu.
+            </p>
+            <div class="container">
+              <div class="center">
+                <button class="button">
+                  <a href="/anwendung.html">Starten</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
