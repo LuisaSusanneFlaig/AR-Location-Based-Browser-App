@@ -18,7 +18,7 @@ The project originated during my academic studies with the goal of developing a 
 
 ### Installation
 
-1. Download the repro an dopen with a codeeditor
+1. Download the repro an dopen with a code editor
 2. Change the geolocation and the qr-code
 3. Upload the repro to a web-hosting-space
 
