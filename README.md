@@ -26,6 +26,14 @@ The project originated during my academic studies with the goal of developing a 
 
 Only works outside buildings
 
+## License
+
+3D-Models by Microsoft
+
+## Contact
+
+Luisa Flaig - luisa.flaig@t-online.de
+
 
 
 
